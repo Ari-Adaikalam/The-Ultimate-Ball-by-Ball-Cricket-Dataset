@@ -1,4 +1,4 @@
-# The-Ultimate-Ball-by_Ball-Cricket-Dataset
+# The Ultimate Ball by Ball Cricket Dataset
 
 ![Cricket Dataset Banner](https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/325900/325966.jpg)
 
