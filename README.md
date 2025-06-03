@@ -13,7 +13,7 @@ The objective of this project is to build one of the most **comprehensive open-s
 
 The dataset spans each ball of all International matches across formats and all IPL/WPL matches from **2003 to 2025**, combining traditional sources (like Cricsheet) with scraped and parsed data from **ESPNcricinfo**. This work took **over 3 months** of continuous scraping, cleaning, and validation, from the publicly available data, ensuring ~95% data accuracy.
 
-## 🔗 Dataset
+## Dataset
 
 👉 **[Access the Dataset on Kaggle](https://www.kaggle.com/datasets/ariadaikalam/the-ultimate-ball-by-ball-cricket-dataset)**
 
