@@ -13,16 +13,12 @@ The objective of this project is to build one of the most **comprehensive open-s
 
 The dataset spans each ball of all International matches across formats and all IPL/WPL matches from **2003 to 2025**, combining traditional sources (like Cricsheet) with scraped and parsed data from **ESPNcricinfo**. This work took **over 3 months** of continuous scraping, cleaning, and validation, from the publicly available data, ensuring ~95% data accuracy.
 
----
-
 ## 🔗 Dataset Source
 
 The base data was sourced and enriched from the following:
 
 - 📊 **Ball-by-ball & match metadata**: [Cricsheet](https://cricsheet.org/)  
 - 📋 **Player metadata & commentary**: [ESPNcricinfo](https://www.espncricinfo.com/)
-
----
 
 ## 🔧 Data Collection & Preprocessing
 
@@ -37,8 +33,6 @@ This dataset was built through a layered pipeline involving scraping, automation
   - Used Selenium to open and scroll ~80,000 match links.
   - Saved the HTML for matches with commentary (~9,000).
   - Parsed ball-by-ball commentary for ~4,000 matches with rich features.
-
----
 
 ## 🧪 Data Preview
 <div>
@@ -415,9 +409,8 @@ This dataset was built through a layered pipeline involving scraping, automation
   </tbody>
 </table>
 </div>
----
 
-## A Note on Completeness:
+### A Note on Completeness:
 
 Not all matches in the original Cricsheet dataset had commentary, and among those with commentary, not all contained detailed information such as line, length, shot played, or direction. Only about 4,000 matches had these detailed attributes, and even then, not all had all four details.
 
@@ -427,24 +420,16 @@ Not all matches in the original Cricsheet dataset had commentary, and among thos
 - **Parsing & Transformation**: `Python`, `Pandas`, `Regex`  
 - **Validation**: Manual reviews and sampling
 
----
-
 ## ✅ Results & Quality
 
 This project delivers one of the most detailed and high-quality cricket datasets available for public use. By combining Cricsheet’s structured ball-by-ball data with commentary-derived features from ESPNcricinfo.
 
----
-
 ## 📜 License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
----
 
 ## Contact
 
 For any queries or contributions, feel free to reach out to:
 - **Ariharasudhan A** – [Email](mailto:ariadaikalam1234@gmail.com)  
 - **Harish R** – [Email](mailto:harishsekar2004@gmail.com)
-
----
