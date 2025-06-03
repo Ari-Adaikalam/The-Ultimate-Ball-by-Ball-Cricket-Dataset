@@ -42,7 +42,6 @@ This dataset was built through a layered pipeline involving scraping, automation
 
 ## 🧪 Data Preview
 <div>
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -58,6 +57,10 @@ This dataset was built through a layered pipeline involving scraping, automation
       <th>striker</th>
       <th>non_striker</th>
       <th>bowler</th>
+      <th>ball_length</th>
+      <th>ball_line</th>
+      <th>shot_played</th>
+      <th>shot_direction</th>
       <th>runs_off_bat</th>
       <th>extras</th>
       <th>wides</th>
@@ -80,6 +83,7 @@ This dataset was built through a layered pipeline involving scraping, automation
       <th>toss_winner</th>
       <th>toss_decision</th>
       <th>player_of_match</th>
+      <th>player_of_match.1</th>
       <th>winner</th>
       <th>winner_runs</th>
       <th>winner_wickets</th>
@@ -100,88 +104,26 @@ This dataset was built through a layered pipeline involving scraping, automation
       <th>playing role_bowler</th>
       <th>major teams_bowler</th>
       <th>image url_bowler</th>
-      <th>player_of_match.1</th>
-      <th>ball_length</th>
-      <th>ball_line</th>
-      <th>shot_played</th>
-      <th>shot_direction</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>486669</th>
-      <td>1157757</td>
-      <td>2018/19</td>
-      <td>2018-10-29</td>
-      <td>Brabourne Stadium</td>
+      <th>126308</th>
+      <td>1473446</td>
+      <td>2025</td>
+      <td>2025-03-29</td>
+      <td>Narendra Modi Stadium, Ahmedabad</td>
       <td>1</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>West Indies</td>
-      <td>RG Sharma</td>
-      <td>S Dhawan</td>
-      <td>KAJ Roach</td>
-      <td>4</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>1.0</td>
-      <td>4.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>male</td>
-      <td>West Indies tour of India</td>
-      <td>4.0</td>
-      <td>India</td>
-      <td>bat</td>
-      <td>RG Sharma</td>
-      <td>India</td>
-      <td>224.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>ODI</td>
-      <td>Intl</td>
-      <td>Rohit Gurunath Sharma</td>
-      <td>India</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Offbreak</td>
-      <td>Top order Batter</td>
-      <td>India, Mumbai, Mumbai Indians, Air India, Decc...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Kemar Andre Jamal Roach</td>
-      <td>West Indies</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Fast medium</td>
-      <td>Bowler</td>
-      <td>West Indies, Antigua Hawksbills, Barbados, Bri...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>short</td>
+      <td>6.4</td>
+      <td>Gujarat Titans</td>
+      <td>Mumbai Indians</td>
+      <td>B Sai Sudharsan</td>
+      <td>Shubman Gill</td>
+      <td>HH Pandya</td>
+      <td>full</td>
       <td>outside off</td>
-      <td>cut</td>
-      <td>point</td>
-    </tr>
-    <tr>
-      <th>2666167</th>
-      <td>565820</td>
-      <td>2012</td>
-      <td>2012-09-11</td>
-      <td>MA Chidambaram Stadium, Chepauk</td>
-      <td>2</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>New Zealand</td>
-      <td>G Gambhir</td>
-      <td>V Kohli</td>
-      <td>KD Mills</td>
+      <td>drive</td>
+      <td>sweeper cover</td>
       <td>1</td>
       <td>0</td>
       <td>NaN</td>
@@ -194,118 +136,118 @@ This dataset was built through a layered pipeline involving scraping, automation
       <td>NaN</td>
       <td>NaN</td>
       <td>0</td>
-      <td>1.0</td>
-      <td>1.0</td>
+      <td>22.0</td>
+      <td>34.0</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>male</td>
-      <td>New Zealand in India T20I Series</td>
-      <td>2.0</td>
-      <td>India</td>
+      <td>Indian Premier League</td>
+      <td>9.0</td>
+      <td>Mumbai Indians</td>
       <td>field</td>
-      <td>BB McCullum</td>
-      <td>New Zealand</td>
-      <td>1.0</td>
+      <td>M Prasidh Krishna</td>
+      <td>NaN</td>
+      <td>Gujarat Titans</td>
+      <td>36.0</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>T20</td>
-      <td>Intl</td>
-      <td>Gautam Gambhir</td>
+      <td>Fran(IPL)</td>
+      <td>Bhardwaj Sai Sudharsan</td>
       <td>India</td>
       <td>Left hand Bat</td>
       <td>Legbreak</td>
       <td>Top order Batter</td>
-      <td>India, Delhi, Delhi Daredevils, Essex, India C...</td>
+      <td>India, Gujarat Titans, Chepauk Super Gillies, ...</td>
       <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Kyle David Mills</td>
-      <td>New Zealand</td>
+      <td>Hardik Himanshu Pandya</td>
+      <td>India</td>
       <td>Right hand Bat</td>
-      <td>Right arm Fast medium</td>
-      <td>Bowler</td>
-      <td>New Zealand, Auckland, Kings XI Punjab, Lincol...</td>
+      <td>Right arm Medium fast</td>
+      <td>Allrounder</td>
+      <td>India, Mumbai Indians, Baroda, Gujarat Titans,...</td>
       <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>outside off</td>
-      <td>NaN</td>
-      <td>on side</td>
     </tr>
     <tr>
-      <th>1118215</th>
-      <td>267708</td>
-      <td>2006/07</td>
-      <td>2007-01-27</td>
-      <td>MA Chidambaram Stadium, Chepauk</td>
-      <td>1</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>West Indies</td>
-      <td>RV Uthappa</td>
-      <td>G Gambhir</td>
-      <td>JE Taylor</td>
-      <td>0</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <th>2510857</th>
+      <td>1447493</td>
+      <td>2024</td>
+      <td>2024-09-06</td>
+      <td>YSD-UKM Cricket Oval, Bangi</td>
+      <td>2</td>
+      <td>8.1</td>
+      <td>Singapore</td>
+      <td>Kuwait</td>
+      <td>WA Simpson</td>
+      <td>AE Paraam</td>
+      <td>Shiraz Khan</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>0</td>
-      <td>1.0</td>
-      <td>0.0</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>13.0</td>
+      <td>8.0</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>male</td>
-      <td>West Indies in India ODI Series</td>
-      <td>3.0</td>
-      <td>West Indies</td>
+      <td>ICC Men's T20 World Cup Asia Qualifier A</td>
+      <td>17.0</td>
+      <td>Singapore</td>
       <td>field</td>
-      <td>MN Samuels</td>
-      <td>West Indies</td>
       <td>NaN</td>
-      <td>3.0</td>
       <td>NaN</td>
-      <td>ODI</td>
+      <td>Singapore</td>
+      <td>NaN</td>
+      <td>5.0</td>
+      <td>NaN</td>
+      <td>T20</td>
       <td>Intl</td>
-      <td>Robin Venu Uthappa</td>
-      <td>India</td>
+      <td>William Arlington Simpson</td>
+      <td>Singapore</td>
       <td>Right hand Bat</td>
-      <td>Right arm Medium</td>
-      <td>Batter</td>
-      <td>India, Air India, Air India Red, Atlanta Rider...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Jerome Everton Taylor</td>
-      <td>West Indies</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Fast</td>
-      <td>Bowler</td>
-      <td>West Indies, Jamaica, Jamaica Tallawahs, Kings...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
       <td>NaN</td>
-      <td>good length</td>
-      <td>on off stump</td>
-      <td>defense</td>
-      <td>off side</td>
+      <td>NaN</td>
+      <td>Singapore</td>
+      <td>NaN</td>
+      <td>Shiraz Khan Shereef</td>
+      <td>Kuwait</td>
+      <td>Right hand Bat</td>
+      <td>Legbreak Googly</td>
+      <td>Allrounder</td>
+      <td>Kuwait</td>
+      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
     </tr>
     <tr>
-      <th>507090</th>
-      <td>1172161</td>
-      <td>2018/19</td>
-      <td>2019-02-25</td>
-      <td>Wankhede Stadium</td>
-      <td>2</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>England</td>
-      <td>JI Rodrigues</td>
-      <td>S Mandhana</td>
-      <td>KH Brunt</td>
+      <th>1160832</th>
+      <td>300426</td>
+      <td>2007/08</td>
+      <td>2007-12-26</td>
+      <td>Eden Park</td>
+      <td>1</td>
+      <td>25.6</td>
+      <td>Bangladesh</td>
+      <td>New Zealand</td>
+      <td>Mohammad Ashraful</td>
+      <td>Tamim Iqbal</td>
+      <td>DL Vettori</td>
+      <td>NaN</td>
+      <td>outside off</td>
+      <td>drive</td>
+      <td>deep extra cover</td>
+      <td>1</td>
       <td>0</td>
-      <td>0</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -316,55 +258,55 @@ This dataset was built through a layered pipeline involving scraping, automation
       <td>NaN</td>
       <td>NaN</td>
       <td>0</td>
+      <td>48.0</td>
+      <td>57.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>male</td>
+      <td>Bangladesh in New Zealand ODI Series</td>
       <td>1.0</td>
-      <td>0.0</td>
+      <td>New Zealand</td>
+      <td>field</td>
+      <td>JM How</td>
       <td>NaN</td>
+      <td>New Zealand</td>
       <td>NaN</td>
-      <td>female</td>
-      <td>England Women tour of India</td>
-      <td>2.0</td>
-      <td>England</td>
-      <td>bat</td>
-      <td>J Goswami</td>
-      <td>India</td>
-      <td>NaN</td>
-      <td>7.0</td>
+      <td>6.0</td>
       <td>NaN</td>
       <td>ODI</td>
       <td>Intl</td>
-      <td>Jemimah Ivan Rodrigues</td>
-      <td>India</td>
+      <td>Mohammad Ashraful</td>
+      <td>Bangladesh</td>
       <td>Right hand Bat</td>
-      <td>Right arm Offbreak</td>
+      <td>Right arm Offbreak, Legbreak</td>
       <td>Middle order Batter</td>
-      <td>Brisbane Heat Women, Delhi Capitals Women, Ind...</td>
+      <td>Bangladesh, Asia XI, Bangladesh A, Central Zon...</td>
       <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Katherine Sciver-Brunt</td>
-      <td>England</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Medium fast</td>
-      <td>Bowling Allrounder</td>
-      <td>England Women, Trent Rockets (Women)</td>
+      <td>Daniel Luca Vettori</td>
+      <td>New Zealand</td>
+      <td>Left hand Bat</td>
+      <td>Slow Left arm Orthodox</td>
+      <td>Allrounder</td>
+      <td>New Zealand, Delhi Daredevils, ICC World XI, J...</td>
       <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>good length</td>
-      <td>on off stump</td>
-      <td>NaN</td>
-      <td>NaN</td>
     </tr>
     <tr>
-      <th>3289216</th>
-      <td>1348652</td>
-      <td>2022/23</td>
-      <td>2023-02-09</td>
-      <td>Vidarbha Cricket Association Stadium, Jamtha, ...</td>
-      <td>2</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>Australia</td>
-      <td>RG Sharma</td>
-      <td>KL Rahul</td>
-      <td>PJ Cummins</td>
+      <th>2460743</th>
+      <td>1435632</td>
+      <td>2024</td>
+      <td>2024-06-03</td>
+      <td>Gahanga International Cricket Stadium, Rwanda</td>
+      <td>1</td>
+      <td>9.6</td>
+      <td>Botswana</td>
+      <td>Nigeria</td>
+      <td>L Mophakedi</td>
+      <td>P Mapotsane</td>
+      <td>L Piety</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
       <td>4</td>
       <td>0</td>
       <td>NaN</td>
@@ -377,57 +319,57 @@ This dataset was built through a layered pipeline involving scraping, automation
       <td>NaN</td>
       <td>NaN</td>
       <td>0</td>
-      <td>1.0</td>
-      <td>4.0</td>
+      <td>31.0</td>
+      <td>22.0</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>male</td>
-      <td>Australia tour of India</td>
-      <td>1.0</td>
-      <td>Australia</td>
+      <td>female</td>
+      <td>Kwibuka Women's Twenty20 Tournament</td>
+      <td>15.0</td>
+      <td>Botswana</td>
       <td>bat</td>
-      <td>RA Jadeja</td>
-      <td>India</td>
-      <td>132.0</td>
+      <td>L Piety</td>
       <td>NaN</td>
+      <td>Nigeria</td>
       <td>NaN</td>
-      <td>TEST</td>
+      <td>9.0</td>
+      <td>NaN</td>
+      <td>T20</td>
       <td>Intl</td>
-      <td>Rohit Gurunath Sharma</td>
-      <td>India</td>
+      <td>Laura Mophakedi</td>
+      <td>Botswana</td>
       <td>Right hand Bat</td>
-      <td>Right arm Offbreak</td>
-      <td>Top order Batter</td>
-      <td>India, Mumbai, Mumbai Indians, Air India, Decc...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Patrick James Cummins</td>
-      <td>Australia</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Fast</td>
-      <td>Bowler</td>
-      <td>Australia, San Francisco Unicorns, Sunrisers H...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
       <td>NaN</td>
-      <td>full</td>
-      <td>outside off</td>
-      <td>leave</td>
-      <td>cover</td>
+      <td>NaN</td>
+      <td>Botswana Women</td>
+      <td>NaN</td>
+      <td>Lucky Piety</td>
+      <td>Nigeria</td>
+      <td>Right hand Bat</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Nigeria Women, Nigeria Women Under-19s</td>
+      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
     </tr>
     <tr>
-      <th>4148255</th>
-      <td>64100</td>
-      <td>2004/05</td>
-      <td>2004-10-14</td>
-      <td>MA Chidambaram Stadium</td>
+      <th>2836564</th>
+      <td>1062575</td>
+      <td>2016/17</td>
+      <td>2017-03-16</td>
+      <td>JSCA International Stadium Complex</td>
       <td>2</td>
-      <td>0.1</td>
+      <td>175.5</td>
       <td>India</td>
       <td>Australia</td>
-      <td>Yuvraj Singh</td>
-      <td>V Sehwag</td>
-      <td>GD McGrath</td>
+      <td>WP Saha</td>
+      <td>CA Pujara</td>
+      <td>JR Hazlewood</td>
+      <td>bouncer</td>
+      <td>NaN</td>
+      <td>ramp</td>
+      <td>third man</td>
+      <td>2</td>
       <td>0</td>
-      <td>0</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -438,290 +380,41 @@ This dataset was built through a layered pipeline involving scraping, automation
       <td>NaN</td>
       <td>NaN</td>
       <td>0</td>
-      <td>1.0</td>
-      <td>0.0</td>
+      <td>172.0</td>
+      <td>78.0</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>male</td>
-      <td>Australia tour of India</td>
-      <td>2.0</td>
+      <td>Border-Gavaskar Trophy</td>
+      <td>3.0</td>
       <td>Australia</td>
       <td>bat</td>
-      <td>A Kumble</td>
+      <td>CA Pujara</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>draw</td>
       <td>TEST</td>
       <td>Intl</td>
-      <td>Yuvraj Singh</td>
+      <td>Wriddhiman Prasanta Saha</td>
       <td>India</td>
+      <td>Right hand Bat</td>
+      <td>NaN</td>
+      <td>Wicketkeeper Batter</td>
+      <td>India, Gujarat Titans, All India Electricity B...</td>
+      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
+      <td>Josh Reginald Hazlewood</td>
+      <td>Australia</td>
       <td>Left hand Bat</td>
-      <td>Slow Left arm Orthodox</td>
-      <td>Middle order Batter</td>
-      <td>India, Asia XI, Delhi Daredevils, India A, Kin...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Glenn Donald McGrath</td>
-      <td>Australia</td>
-      <td>Right hand Bat</td>
       <td>Right arm Fast medium</td>
       <td>Bowler</td>
-      <td>Australia, Delhi Daredevils, ICC World XI, Mid...</td>
+      <td>Australia, AJ Finch's XI, Australia A, Austral...</td>
       <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1842179</th>
-      <td>1122285</td>
-      <td>2017/18</td>
-      <td>2018-02-18</td>
-      <td>The Wanderers Stadium</td>
-      <td>1</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>South Africa</td>
-      <td>RG Sharma</td>
-      <td>S Dhawan</td>
-      <td>D Paterson</td>
-      <td>0</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>male</td>
-      <td>India tour of South Africa</td>
-      <td>1.0</td>
-      <td>South Africa</td>
-      <td>field</td>
-      <td>B Kumar</td>
-      <td>India</td>
-      <td>28.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>T20</td>
-      <td>Intl</td>
-      <td>Rohit Gurunath Sharma</td>
-      <td>India</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Offbreak</td>
-      <td>Top order Batter</td>
-      <td>India, Mumbai, Mumbai Indians, Air India, Decc...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Dane Paterson</td>
-      <td>South Africa</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Fast medium</td>
-      <td>Bowler</td>
-      <td>South Africa, Dolphins, Jamaica Tallawahs, Joz...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>back of length</td>
-      <td>outside off</td>
-      <td>dab</td>
-      <td>point</td>
-    </tr>
-    <tr>
-      <th>378783</th>
-      <td>1119500</td>
-      <td>2017/18</td>
-      <td>2017-10-01</td>
-      <td>Vidarbha Cricket Association Stadium, Jamtha</td>
-      <td>2</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>Australia</td>
-      <td>AM Rahane</td>
-      <td>RG Sharma</td>
-      <td>PJ Cummins</td>
-      <td>0</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>1.0</td>
-      <td>0.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>male</td>
-      <td>Australia tour of India</td>
-      <td>5.0</td>
-      <td>Australia</td>
-      <td>bat</td>
-      <td>RG Sharma</td>
-      <td>India</td>
-      <td>NaN</td>
-      <td>7.0</td>
-      <td>NaN</td>
-      <td>ODI</td>
-      <td>Intl</td>
-      <td>Ajinkya Madhukar Rahane</td>
-      <td>India</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Medium</td>
-      <td>Top order Batter</td>
-      <td>India, Chennai Super Kings, Mumbai, Delhi Capi...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Patrick James Cummins</td>
-      <td>Australia</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Fast</td>
-      <td>Bowler</td>
-      <td>Australia, San Francisco Unicorns, Sunrisers H...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>short</td>
-      <td>NaN</td>
-      <td>defense</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1467623</th>
-      <td>578623</td>
-      <td>2013</td>
-      <td>2013-06-15</td>
-      <td>Edgbaston</td>
-      <td>2</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>Pakistan</td>
-      <td>RG Sharma</td>
-      <td>S Dhawan</td>
-      <td>Mohammad Irfan</td>
-      <td>1</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>male</td>
-      <td>ICC Champions Trophy</td>
-      <td>10.0</td>
-      <td>India</td>
-      <td>field</td>
-      <td>B Kumar</td>
-      <td>India</td>
-      <td>NaN</td>
-      <td>8.0</td>
-      <td>NaN</td>
-      <td>ODI</td>
-      <td>Intl</td>
-      <td>Rohit Gurunath Sharma</td>
-      <td>India</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Offbreak</td>
-      <td>Top order Batter</td>
-      <td>India, Mumbai, Mumbai Indians, Air India, Decc...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Mohammad Irfan</td>
-      <td>Pakistan</td>
-      <td>Right hand Bat</td>
-      <td>Left arm Fast</td>
-      <td>Bowler</td>
-      <td>Pakistan, Atlanta Riders, Balkh Legends, Baluc...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>full</td>
-      <td>outside off</td>
-      <td>NaN</td>
-      <td>third man</td>
-    </tr>
-    <tr>
-      <th>2639707</th>
-      <td>452153</td>
-      <td>2010</td>
-      <td>2010-06-12</td>
-      <td>Harare Sports Club</td>
-      <td>2</td>
-      <td>0.1</td>
-      <td>India</td>
-      <td>Zimbabwe</td>
-      <td>M Vijay</td>
-      <td>NV Ojha</td>
-      <td>CB Mpofu</td>
-      <td>1</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>male</td>
-      <td>India in Zimbabwe T20I Series</td>
-      <td>1.0</td>
-      <td>India</td>
-      <td>field</td>
-      <td>YK Pathan</td>
-      <td>India</td>
-      <td>NaN</td>
-      <td>6.0</td>
-      <td>NaN</td>
-      <td>T20</td>
-      <td>Intl</td>
-      <td>Murali Vijay</td>
-      <td>India</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Offbreak</td>
-      <td>Opening Batter</td>
-      <td>India, Chemplast, Chennai Super Kings, Delhi D...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>Christopher Bobby Mpofu</td>
-      <td>Zimbabwe</td>
-      <td>Right hand Bat</td>
-      <td>Right arm Fast medium</td>
-      <td>Bowler</td>
-      <td>Zimbabwe, Amakhosi, Mashonaland, Matabeleland,...</td>
-      <td>https://img1.hscicdn.com/image/upload/f_auto,t...</td>
-      <td>NaN</td>
-      <td>steer</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>third man</td>
     </tr>
   </tbody>
 </table>
 </div>
-
 ---
 
 ## A Note on Completeness:
