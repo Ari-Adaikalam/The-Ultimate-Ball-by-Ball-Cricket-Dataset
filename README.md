@@ -416,9 +416,7 @@ This dataset was built through a layered pipeline involving scraping, automation
 </table>
 </div>
 
-### A Note on Completeness:
-
-Not all matches in the original Cricsheet dataset had commentary, and among those with commentary, not all contained detailed information such as line, length, shot played, or direction. Only about 4,000 matches had these detailed attributes, and even then, not all had all four details.
+--> Not all matches in the original Cricsheet dataset had commentary, and among those with commentary, not all contained detailed information such as line, length, shot played, or direction. Only about 4,000 matches had these detailed attributes, and even then, not all had all four details.
 
 ## Results & Quality
 
